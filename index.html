@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energy Drink Landing Page</title>
+    <title>Playing Market - Headphones Wireless</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -14,72 +17,66 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav>
-            <div class="logo">ENERGY DRINK</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-            <button class="login-btn">Login</button>
-        </nav>
+    <div class="main-container">
+        <header class="navbar">
+            <div class="logo"><span>●</span> PLAYING / MARKET</div>
+            <nav>
+                <a href="#">INICIO</a>
+                <a href="#">TIENDA</a>
+                <a href="#">CATEGORÍAS</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACTO</a>
+            </nav>
+            <div class="cart-icon">🛒</div>
+        </header>
 
-        <main>
-            <div class="left-section">
-                <h1>ENERGY <br> DRINK</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    theLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the
-                    industry's standard dummy text ever since the 1500s.</p>
-                <button class="read-more">READ MORE</button>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Headphones<br>Wireless</h1>
+                <p>Mejores efectos de sonido y una mejor experiencia auditiva. Tiene 3 modos de ecualización con los que
+                    puede cambiar libremente.</p>
+                <button class="cta-button">IR A LA TIENDA</button>
             </div>
 
-            <div class="right-section">
-                <div class="product-item">
-                    <h4>DRINK NAME</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab deleniti reiciendis modi
-                        ipsa necessitatibus repellat. Voluptatem.</p>
-                </div>
-                <div class="product-item">
-                    <h4>DRINK NAME</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab deleniti reiciendis modi
-                        ipsa necessitatibus repellat. Voluptatem.</p>
-                </div>
-                <div class="product-item">
-                    <h4>DRINK NAME</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ab deleniti reiciendis modi
-                        ipsa necessitatibus repellat. Voluptatem.</p>
-                </div>
+            <div class="hero-image-box">
+                <img src="img.png" alt="Headphones" class="main-img">
+                <div class="reflection"></div>
+            </div>
+        </section>
 
+        <div class="featured-section">
+            <div class="featured-header">
+                <div class="line-left"></div>
+                <span class="label">ARTÍCULOS DESTACADOS</span>
+                <div class="line-right"></div>
             </div>
 
-            <img src="drink.png" alt="Energy Drink" class="can-img">
-        </main>
+            <div class="product-grid">
+                <div class="item">
+                    <img src="short.png" alt="Rose Gold">
+                    <div class="details">
+                        <span class="price">$55,00</span>
+                        <small>Oro rosa</small>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="short.png" alt="Blue">
+                    <div class="details">
+                        <span class="price">$65,00</span>
+                        <small>Blue</small>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="short.png" alt="Purple">
+                    <div class="details">
+                        <span class="price">$55,00</span>
+                        <small>Púrpura</small>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <footer>
-            <div class="stat">
-                <span class="number">01</span>
-                <div>
-                    <strong>LEVEL</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="stat">
-                <span class="number">02</span>
-                <div>
-                    <strong>LEVEL</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-            <div class="stat">
-                <span class="number">03</span>
-                <div>
-                    <strong>LEVEL</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-            </div>
-        </footer>
+        <div class="floating-wa"><i class="fa-brands fa-whatsapp"></i></div>
     </div>
 </body>
 
